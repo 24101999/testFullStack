@@ -1,0 +1,26 @@
+.cadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.form-cadastro form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.form-cadastro form input {
+  border: 1px solid;
+  outline: none;
+  border-radius: 5px;
+}
+
+.form-cadastro form button {
+  cursor: pointer;
+}

@@ -1,0 +1,76 @@
+.modal {
+  height: 0%;
+  width: 100%;
+  opacity: 0%;
+  transition: 0.4s all;
+  overflow: hidden;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.541);
+}
+
+.modal.open {
+  transition: 0.4s all;
+  height: 100%;
+  width: 100%;
+  opacity: 100%;
+  overflow: hidden;
+}
+
+.contatos {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.elements {
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 15px;
+  border: 1px solid;
+}
+
+.buttons button {
+  cursor: pointer;
+}
+
+.add-contato button {
+  cursor: pointer;
+}
+
+.form-modal {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-modal .closed {
+  position: absolute;
+  right: 1rem;
+  top: 0rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+.form-modal form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.form-modal form input {
+  border: 1px solid;
+  outline: none;
+  border-radius: 5px;
+}
+
+.form-modal form button {
+  cursor: pointer;
+}
